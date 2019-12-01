@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-100 input {
+  width: 70%;
+}
+
+.users-title {
+  display: inherit;
+}
+
+img {
+  height: 35px !important;
+  width: auto !important;
+}
+
+.rounded {
+  border-radius: 50% !important;
+}
+
+td img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sorting {
+  cursor: pointer;
+}
+
+table thead .sorting {
+  background-image: url("sort_both.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+table thead .sorting.sorting-asc {
+  background-image: url("sort_asc.png");
+}
+
+table thead .sorting.sorting-desc {
+  background-image: url("sort_desc.png");
+}
+th .center,
+td .center {
+  display: block;
+  margin: auto;
+}
+
+.dataTables-info {
+  float: left;
+  clear: both;
+  padding: 0.55em;
+}
+
+.pagination {
+  float: right;
+  text-align: right;
+}
+
+.table td,
+.table th {
+  padding: 12px 8px;
+  vertical-align: middle;
+  line-height: 1.428;
+}
+
+.panel {
+  margin-bottom: 20px;
+  border: solid thin transparent;
+  background-color: #fff;
+  padding: 25px;
+}

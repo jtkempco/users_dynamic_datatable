@@ -1,0 +1,39 @@
+            <tfoot>
+              <td>
+                <Button
+                  color="primary"
+                  disabled={addUserButtonDisabled}
+                  onClick={this.onAddUserClick}
+                >
+                  Add User
+                </Button>
+              </td>
+              <td>
+                <FileInput
+                  onAddUserChange={this.onAddUserChange}
+                  value={newUser.avatar}
+                />
+              </td>
+              <td>
+                <Input
+                  type="text"
+                  onChange={e => this.onAddUserChange(e, "first_name")}
+                  value={newUser.first_name}
+                />
+              </td>
+              <td>
+                <Input
+                  type="text"
+                  onChange={e => this.onAddUserChange(e, "last_name")}
+                  value={newUser.last_name}
+                />
+              </td>
+              <td>
+                <Input
+                  type="email"
+                  onChange={e => this.onAddUserChange(e, "email")}
+                  value={newUser.email}
+                />
+              </td>
+              <td />
+            </tfoot>

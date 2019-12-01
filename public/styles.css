@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-100 input {
+  width: 70%;
+}
+
+.users-title {
+  display: inherit;
+}
+
+img {
+  height: 35px !important;
+  width: auto !important;
+}
+
+.rounded {
+  border-radius: 50% !important;
+}
+
+tfoot {
+  background-color: #ced4da;
+}
+thead tr th {
+  border-top-color: transparent !important;
+}
+
+.sorting {
+  cursor: pointer;
+}
+
+table thead .sorting {
+  background-image: url("sort_both.png");
+}
